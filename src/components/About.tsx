@@ -123,7 +123,7 @@ export default function About() {
                   His 16-minute flight proved humans could survive in space. 109 days later, Alan Shepard followed the exact same route Ham made safe.
                 </p>
                 <p className="text-xl md:text-2xl font-bold gradient-text">
-                  Ham didn't go to the moon. But he's the reason we did.
+                  Ham didn&apos;t go to the moon. But he&apos;s the reason we did.
                 </p>
               </div>
             </motion.div>

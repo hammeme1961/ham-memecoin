@@ -78,7 +78,7 @@ export default function Tokenomics() {
               Tokenomics
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Simple. Fair. Transparent. Just like Ham's mission.
+              Simple. Fair. Transparent. Just like Ham&apos;s mission.
             </p>
           </motion.div>
 
