@@ -109,23 +109,22 @@ export default function Hero({ copyAddress }: HeroProps) {
             {/* Social Links */}
             <motion.div variants={itemVariants} className="flex flex-wrap justify-center lg:justify-start gap-4">
               <motion.a 
-                href="#" 
+                href="https://x.com/hammeme_" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary flex items-center gap-2 px-6 py-3 hover-scale"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Twitter className="w-4 h-4" />
-                Twitter
+                X (Twitter)
               </motion.a>
-              <motion.a 
-                href="#" 
-                className="btn-secondary flex items-center gap-2 px-6 py-3 hover-scale"
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.95 }}
+              <motion.div 
+                className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
               >
                 <MessageCircle className="w-4 h-4" />
-                Telegram
-              </motion.a>
+                Telegram (TBA)
+              </motion.div>
               <motion.a 
                 href="#" 
                 className="glass-effect flex items-center gap-2 px-6 py-3 rounded-xl hover-glow transition-all duration-300 text-white"
