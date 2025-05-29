@@ -125,15 +125,18 @@ export default function Hero({ copyAddress }: HeroProps) {
                 <MessageCircle className="w-4 h-4" />
                 Telegram (TBA)
               </motion.div>
-              <motion.a 
-                href="#" 
-                className="glass-effect flex items-center gap-2 px-6 py-3 rounded-xl hover-glow transition-all duration-300 text-white"
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.95 }}
+              <motion.div 
+                className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
               >
                 <TrendingUp className="w-4 h-4" />
-                Pump.fun
-              </motion.a>
+                Pump.fun (TBA)
+              </motion.div>
+              <motion.div 
+                className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
+              >
+                <TrendingUp className="w-4 h-4" />
+                Dexscreener (TBA)
+              </motion.div>
             </motion.div>
           </div>
 
