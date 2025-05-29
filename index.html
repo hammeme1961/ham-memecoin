@@ -1,0 +1,54 @@
+        /* Earth Animation */
+        .earth {
+            position: fixed;
+            bottom: -30vh;
+            right: -20vh;
+            width: 60vh;
+            height: 60vh;
+            border-radius: 50%;
+            background: #2563eb;
+            box-shadow: 
+                inset -20px -20px 60px rgba(0,0,0,0.6),
+                inset 20px 20px 60px rgba(255,255,255,0.2),
+                0 0 100px rgba(37, 99, 235, 0.5);
+            animation: earthRotate 300s linear infinite;
+            z-index: -1;
+        }
+
+        .earth::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50%;
+            background: 
+                /* Continents - made more visible */
+                radial-gradient(circle at 25% 30%, #16a34a 0%, transparent 20%),
+                radial-gradient(circle at 30% 60%, #16a34a 0%, transparent 15%),
+                radial-gradient(circle at 45% 45%, #16a34a 0%, transparent 25%),
+                radial-gradient(circle at 65% 35%, #16a34a 0%, transparent 20%),
+                radial-gradient(circle at 75% 65%, #16a34a 0%, transparent 10%);
+            animation: earthRotate 300s linear infinite reverse;
+        }
+
+        /* Remove any unwanted buttons */
+        .continue-button, 
+        button[type="submit"],
+        .green-button {
+            display: none !important;
+        }
+
+        /* Clean header style */
+        header.fixed {
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Navigation menu */
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        } 
