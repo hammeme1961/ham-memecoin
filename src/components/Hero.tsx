@@ -98,7 +98,7 @@ export default function Hero({ copyAddress }: HeroProps) {
                 </div>
                 <div className="flex items-center justify-center lg:justify-start gap-2 flex-wrap">
                   <code className="text-sm font-mono text-orange-400 font-bold group-hover:text-yellow-400 transition-colors break-all">
-                    Ai3kcAWyKjMk8w8Rw4z1VPB3yfYbJvJvkvJPschimp
+                    test 123
                   </code>
                   <Copy className="w-4 h-4 text-orange-400 group-hover:text-yellow-400 transition-colors flex-shrink-0" />
                 </div>

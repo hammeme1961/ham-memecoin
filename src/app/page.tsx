@@ -13,7 +13,7 @@ export default function Home() {
   const [showToast, setShowToast] = useState(false)
 
   const copyAddress = () => {
-    const address = "Ai3kcAWyKjMk8w8Rw4z1VPB3yfYbJvJvkvJPschimp"
+    const address = "test 123"
     navigator.clipboard.writeText(address)
     setShowToast(true)
     setTimeout(() => setShowToast(false), 3000)
