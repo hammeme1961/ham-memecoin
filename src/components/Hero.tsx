@@ -98,7 +98,7 @@ export default function Hero({ copyAddress }: HeroProps) {
                 </div>
                 <div className="flex items-center justify-center lg:justify-start gap-2 flex-wrap">
                   <code className="text-sm font-mono text-orange-400 font-bold group-hover:text-yellow-400 transition-colors break-all">
-                    test 123
+                    3HTQRg7J1AcbRBtz5LwdRvfKWSNZuiyqWpPEiAMMpump
                   </code>
                   <Copy className="w-4 h-4 text-orange-400 group-hover:text-yellow-400 transition-colors flex-shrink-0" />
                 </div>
@@ -130,12 +130,17 @@ export default function Hero({ copyAddress }: HeroProps) {
                 <MessageCircle className="w-4 h-4" />
                 Telegram
               </motion.a>
-              <motion.div 
-                className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
+              <motion.a 
+                href="https://pump.fun/coin/3HTQRg7J1AcbRBtz5LwdRvfKWSNZuiyqWpPEiAMMpump?include-nsfw=true" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary flex items-center gap-2 px-6 py-3 hover-scale"
+                whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.95 }}
               >
                 <TrendingUp className="w-4 h-4" />
-                Pump.fun (TBA)
-              </motion.div>
+                Pump.fun
+              </motion.a>
               <motion.div 
                 className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
               >
