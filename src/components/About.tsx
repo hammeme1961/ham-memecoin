@@ -138,7 +138,7 @@ export default function About() {
           >
             <div className="glass-effect p-6 rounded-2xl border border-cyan-500/30 bg-gradient-to-r from-cyan-500/5 to-orange-500/5">
               <p className="text-lg text-gray-300 mb-4">
-                Dive deeper into Ham's incredible journey
+                Dive deeper into Ham&apos;s incredible journey
               </p>
               <div className="w-16 h-1 bg-gradient-to-r from-cyan-400 to-orange-400 mx-auto rounded-full"></div>
               <div className="text-sm text-gray-400 mt-3 font-semibold tracking-wide">
