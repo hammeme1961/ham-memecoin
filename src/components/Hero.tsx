@@ -119,12 +119,17 @@ export default function Hero({ copyAddress }: HeroProps) {
                 <Twitter className="w-4 h-4" />
                 X (Twitter)
               </motion.a>
-              <motion.div 
-                className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
+              <motion.a 
+                href="https://t.me/hammemee" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary flex items-center gap-2 px-6 py-3 hover-scale"
+                whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.95 }}
               >
                 <MessageCircle className="w-4 h-4" />
-                Telegram (TBA)
-              </motion.div>
+                Telegram
+              </motion.a>
               <motion.div 
                 className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
               >
