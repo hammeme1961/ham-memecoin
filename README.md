@@ -129,4 +129,146 @@ In memory of Ham (1957-1983) - the brave chimpanzee who proved that space travel
 
 ---
 
-**Ham didn't go to the moon, but he made it possible for us to go. Now it's time to take $HAM to the moon! 🚀🌙** 
+**Ham didn't go to the moon, but he made it possible for us to go. Now it's time to take $HAM to the moon! 🚀🌙**
+
+# HAM Memecoin Website
+
+## Prosjektoversikt
+Dette er en Next.js 14.0.4 applikasjon for HAM memecoin - den første sjimpansen i rommet (31. januar 1961).
+
+**Live nettside:** https://hamtoken.com
+
+## Hvordan koble til serveren igjen
+
+### 1. Naviger til prosjektmappen
+```powershell
+cd "C:\Users\Admin B\Documents\ham"
+```
+
+### 2. Sett opp PATH for Node.js og Git (viktig!)
+Dette må gjøres hver gang du åpner en ny PowerShell terminal:
+```powershell
+$env:PATH = $env:PATH + ";C:\Program Files\nodejs"
+$env:PATH = $env:PATH + ";C:\Program Files\Git\bin"
+```
+
+### 3. Start utviklingsserveren
+```powershell
+npm run dev
+```
+
+Serveren vil automatisk finne en ledig port:
+- Prøver først `http://localhost:3000`
+- Hvis opptatt, prøver `http://localhost:3001`, `3002`, `3003`, osv.
+
+### 4. Stoppe alle lokale servere
+Hvis det er mange servere som kjører på forskjellige porter:
+```powershell
+taskkill /f /im node.exe
+```
+
+## Git-kommandoer
+
+### Sjekke status
+```powershell
+git status
+```
+
+### Legge til endringer og committe
+```powershell
+git add .
+git commit -m "Din commit-melding her"
+git push
+```
+
+### Sjekke commit-historikk
+```powershell
+git log --oneline
+```
+
+## Viktig prosjektinformasjon
+
+### Kontraktadresse
+```
+3HTQRg7J1AcbRBtz5LwdRvfKWSNZuiyqWpPEiAMMpump
+```
+
+### Sosiale medier status
+- **X (Twitter):** TBA
+- **Telegram:** TBA  
+- **Pump.fun:** TBA
+- **Dexscreener:** TBA
+
+### Pump.fun link
+```
+https://pump.fun/coin/3HTQRg7J1AcbRBtz5LwdRvfKWSNZuiyqWpPEiAMMpump?include-nsfw=true
+```
+
+## Prosjektstruktur
+
+### Viktige filer
+- `src/app/page.tsx` - Hovedside
+- `src/components/Hero.tsx` - Hero-seksjon med kontraktadresse og sosiale lenker
+- `src/components/About.tsx` - Om HAM-seksjonen
+- `src/components/StoryImages.tsx` - Historiske øyeblikk
+- `src/components/Tokenomics.tsx` - Tokenomics-informasjon
+- `src/components/Footer.tsx` - Footer
+
+### Bilder
+Alle bilder ligger i `/public/`:
+- `/hovedbilde.png` - Hovedbilde av HAM
+- `/med-hjelmen.png` - HAM med hjelm
+- `/raketten.png` - Mercury-raketten
+- `/avis-bilde.png` - Avisutklipp
+
+## Deployment
+
+### GitHub Repository
+```
+https://github.com/hammeme1961/ham-memecoin.git
+```
+
+### Vercel Deployment
+- Prosjekt: `ham-memecoin`
+- Automatisk deployment fra main branch
+- Custom domain: `hamtoken.com` og `www.hamtoken.com`
+
+## Vanlige problemer og løsninger
+
+### Problem: "npm is not recognized"
+**Løsning:** Kjør PATH-kommandoen for Node.js:
+```powershell
+$env:PATH = $env:PATH + ";C:\Program Files\nodejs"
+```
+
+### Problem: "git is not recognized"  
+**Løsning:** Kjør PATH-kommandoen for Git:
+```powershell
+$env:PATH = $env:PATH + ";C:\Program Files\Git\bin"
+```
+
+### Problem: Port er i bruk
+**Løsning:** Next.js finner automatisk en ledig port, eller stopp alle Node.js prosesser:
+```powershell
+taskkill /f /im node.exe
+```
+
+### Problem: Endringer ikke synlige på live site
+**Løsning:** Sjekk at endringene er committed og pushet til GitHub:
+```powershell
+git status
+git add .
+git commit -m "Beskrivelse av endringer"
+git push
+```
+
+## Kontaktinformasjon
+- **Domene:** hamtoken.com (med WHOIS privacy protection)
+- **GitHub:** hammeme1961
+- **Vercel:** ham-memecoin prosjekt
+
+## Viktige notater
+- Alle sosiale lenker er satt til "TBA" status
+- Kontraktadressen er oppdatert til den ekte Solana-adressen
+- Nettsiden har responsive design og fungerer på mobile enheter
+- Bruker moderne glassmorphism-effekter og animasjoner 
