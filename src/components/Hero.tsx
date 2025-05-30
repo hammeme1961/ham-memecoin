@@ -108,39 +108,24 @@ export default function Hero({ copyAddress }: HeroProps) {
             
             {/* Social Links */}
             <motion.div variants={itemVariants} className="flex flex-wrap justify-center lg:justify-start gap-4">
-              <motion.a 
-                href="https://x.com/hammeme_" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary flex items-center gap-2 px-6 py-3 hover-scale"
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.95 }}
+              <motion.div 
+                className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
               >
                 <Twitter className="w-4 h-4" />
-                X (Twitter)
-              </motion.a>
-              <motion.a 
-                href="https://t.me/hammemee" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary flex items-center gap-2 px-6 py-3 hover-scale"
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.95 }}
+                X (TBA)
+              </motion.div>
+              <motion.div 
+                className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
               >
                 <MessageCircle className="w-4 h-4" />
-                Telegram
-              </motion.a>
-              <motion.a 
-                href="https://pump.fun/coin/3HTQRg7J1AcbRBtz5LwdRvfKWSNZuiyqWpPEiAMMpump?include-nsfw=true" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary flex items-center gap-2 px-6 py-3 hover-scale"
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.95 }}
+                Telegram (TBA)
+              </motion.div>
+              <motion.div 
+                className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
               >
                 <TrendingUp className="w-4 h-4" />
-                Pump.fun
-              </motion.a>
+                Pump.fun (TBA)
+              </motion.div>
               <motion.div 
                 className="btn-secondary flex items-center gap-2 px-6 py-3 opacity-60 cursor-not-allowed"
               >
